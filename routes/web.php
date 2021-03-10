@@ -23,3 +23,6 @@ Route::get('/', function () {
 
 Route::get('/', UserController::class);
 
+Route::get('cadastrar', function(){
+    return view('cadastrar');
+});

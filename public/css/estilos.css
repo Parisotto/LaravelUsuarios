@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+  }
+  html{
+    background:linear-gradient(coral, white) no-repeat;
+    font-family: 'PT Sans', Arial;
+  }
+  header{
+    width:100%;
+    padding:10px;
+    position:fixed;
+    top:0;
+    border-bottom:1px solid #f444;
+    background-color:#fffe;
+    box-shadow: 0px 3px 3px #f003;
+  }
+  header h1{
+    background:url('https://www.mavenlogix.org/wp-content/uploads/2019/01/laravel-512-400x400.png') no-repeat;
+    font-size:30px;
+    padding-left:70px;
+    line-height:50px;
+    background-size:50px;
+    color:#FF4B4B;
+    width:80%;
+    margin:0 auto;
+  }
+  header span{
+    border-left:1px solid #f44;
+    margin:0 15px;
+  }
+  header h1 a{
+    font-size:16px;
+    font-weight:normal;
+    color:#f44;
+  }
+  main{
+    border:1px solid #f44;
+    border-radius:10px;
+    box-shadow: 5px 5px 2px #f003;
+    width:80%;
+    margin:100px auto 0;
+  }
+  h2{
+    font-size:25px;
+    padding:30px 0;
+    text-align:center;
+    background-color:#f44;
+    color:white;
+    border-radius:10px 10px 0 0;
+    border-top:1px solid white;
+    text-transform: uppercase;
+  }
+  table{
+    width:100%;
+  }
+  th, td{
+    vertical-align: middle;
+    text-align:left;
+  }
+  th{
+    padding:10px 10px;
+    background-color: #f443;
+  }
+  td{
+    padding:20px 10px;
+    font-size:22px;
+  }
+  td:nth-child(5), td:nth-child(6){
+    width:60px;
+    text-align:center;
+    padding:0;
+  }
+  #editar, #deletar{
+    display:block;
+    width:40px;
+    height:40px;
+  }
+  #editar{
+    background:url('https://cdn.iconscout.com/icon/free/png-256/edit-1215-1163030.png') center no-repeat;
+    background-size:contain;
+  }
+  #deletar{
+    border:none;
+    cursor: pointer;
+    background:url('https://i.ya-webdesign.com/images/edit-delete-icon-png.png') center no-repeat;
+    background-size:contain;
+  }
+  th:first-child, td:first-child{ width:1px; }
+  tr:nth-child(2n){ background-color:#fff5; }
+  tr:nth-child(2n+1){ background-color:#f442; }
+  td:nth-child(2){ width:40%; }
+  tr:last-child td {
+      padding:5px;
+      background-color:#f44;
+      border-radius:0 0 10px 10px;
+  }
+  footer{
+    text-align:center;
+    padding:10px;
+    margin-top:20px;
+    font-size:14px;
+    color:red;
+    border-top:1px solid #f004;
+  }
+  footer a{
+    color:red;
+  }
+  footer a:hover { text-decoration:underline; }
